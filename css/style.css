@@ -32,6 +32,7 @@ textarea {
 
 a {
   text-decoration: none;
+  font-size: 10px;
 }
 
 ul {
@@ -2252,7 +2253,7 @@ button {
   padding: 20px;
   border-radius: 5px;
   width: 300px;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   position: relative;
 }
