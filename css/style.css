@@ -435,11 +435,11 @@ header .circle {
 .card {
   position: relative;
   width: 100%;
-  max-width: 390px;
-  min-height: 520px;
+  max-width: 500px;
+  min-height: 800px;
   background-color: var(--light-three);
   display: flex;
-  align-items: center;
+  
   justify-content: center;
   text-align: center;
   padding: 3rem 2rem;
@@ -2204,3 +2204,82 @@ header .circle {
 }
 
 /* End Responsive */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-wrap {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-content .icon {
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  inset: -25px;
+  width: 110%;
+  height: 110%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.diploma-list {
+  list-style: none;
+  padding: 0;
+}
+
+.diploma-list li {
+  margin-bottom: 10px;
+}
+
+.diploma-list a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.diploma-list a:hover {
+  text-decoration: underline;
+}
