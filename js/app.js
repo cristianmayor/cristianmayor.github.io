@@ -8,6 +8,50 @@ const hamburger_menu = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector("header nav");
 const links = document.querySelectorAll(".links a");
 
+
+
+document.getElementById('openPopup').addEventListener('click', function() {
+  document.getElementById('popup').style.display = 'flex';
+});
+
+document.getElementById('openPopup1').addEventListener('click', function() {
+  document.getElementById('popup1').style.display = 'flex';
+});
+
+document.getElementById('openPopup2').addEventListener('click', function() {
+  document.getElementById('popup2').style.display = 'flex';
+});
+
+document.querySelectorAll('.close').forEach(function(closeButton) {
+  closeButton.addEventListener('click', function() {
+    const popupId = this.getAttribute('data-close');
+    document.getElementById(popupId).style.display = 'none';
+  });
+});
+
+document.getElementById('closePopup').addEventListener('click', function() {
+  document.getElementById('popup').style.display = 'none';
+});
+
+document.getElementById('closePopup1').addEventListener('click', function() {
+  document.getElementById('popup1').style.display = 'none';
+});
+
+document.getElementById('closePopup2').addEventListener('click', function() {
+  document.getElementById('popup2').style.display = 'none';
+});
+
+// Cerrar el popup al hacer clic fuera de su contenido
+window.addEventListener('click', function(event) {
+  if (event.target.classList.contains('popup')) {
+      event.target.style.display = 'none';
+  }
+});
+
+
+
+
+
 footer_input.addEventListener("focus", () => {
   footer_input.classList.add("focus");
 });
@@ -101,40 +145,3 @@ var mySwiper = new Swiper(".swiper-container", {
 });
 
 
-document.getElementById('openPopup').addEventListener('click', function() {
-  document.getElementById('popup').style.display = 'flex';
-});
-
-document.getElementById('openPopup1').addEventListener('click', function() {
-  document.getElementById('popup1').style.display = 'flex';
-});
-
-document.getElementById('openPopup2').addEventListener('click', function() {
-  document.getElementById('popup2').style.display = 'flex';
-});
-
-document.querySelectorAll('.close').forEach(function(closeButton) {
-  closeButton.addEventListener('click', function() {
-    const popupId = this.getAttribute('data-close');
-    document.getElementById(popupId).style.display = 'none';
-  });
-});
-
-document.getElementById('closePopup').addEventListener('click', function() {
-  document.getElementById('popup').style.display = 'none';
-});
-
-document.getElementById('closePopup1').addEventListener('click', function() {
-  document.getElementById('popup1').style.display = 'none';
-});
-
-document.getElementById('closePopup2').addEventListener('click', function() {
-  document.getElementById('popup2').style.display = 'none';
-});
-
-// Cerrar el popup al hacer clic fuera de su contenido
-window.addEventListener('click', function(event) {
-  if (event.target.classList.contains('popup')) {
-      event.target.style.display = 'none';
-  }
-});
