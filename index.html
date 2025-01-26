@@ -1,1007 +1,1844 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Cmayor</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <main>
-      <header id="header">
-        <div class="overlay overlay-lg">
-          <img src="./img/shapes/square.png" class="shape square" alt="" />
-          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
-          <img
-            src="./img/shapes/half-circle.png"
-            class="shape half-circle1"
-            alt=""
-          />
-          <img
-            src="./img/shapes/half-circle.png"
-            class="shape half-circle2"
-            alt=""
-          />
-          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
-          <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
-          <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
-          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
-          <img src="./img/shapes/letters.png" class="letters" alt="" />
-          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  </meta>
+  <!-- Definición del conjunto de caracteres para el documento -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </meta>
+
+  <!-- Configuración de la vista para dispositivos móviles, establece el ancho y escala inicial -->
+
+  <meta name="description" content="Portafolio Cristian Mayor para desarrollo web. Optimiza tu flujo de trabajo hoy.">
+  </meta>
+
+  <!-- Descripción del contenido de la página para los motores de búsqueda -->
+
+  <meta name="robots" content="index, follow">
+  </meta>
+
+  <!-- Instrucciones para los motores de búsqueda sobre la indexación del contenido -->
+
+  <meta name="title" content="Portafolio Cmayor">
+  </meta>
+
+  <!-- Título que se mostrará en la pestaña del navegador -->
+
+  <title>Portafolio Cristian Mayor</title>
+
+  <!-- Título de la página que aparecerá en la pestaña del navegador -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </link>
+
+  <!-- Enlace a la hoja de estilos de Font Awesome para utilizar íconos -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  </link>
+
+  <!-- Enlace a la hoja de estilos de Swiper para los carruseles -->
+
+  <link rel="stylesheet" href="./css/style.css">
+  </link>
+
+  <!-- Enlace a la hoja de estilos personalizada (style.css) para el diseño del portafolio -->
+</head>
+
+<body>
+  <header id="home">
+    <!-- Sección del encabezado, que contiene el área principal de la página -->
+
+    <div class="overlay overlay-lg">
+      <!-- Fondo con formas decorativas que aparecen detrás del contenido -->
+
+      <img src="./img/formas/cuadrado.png" class="shape square" alt="">
+
+      <img src="./img/formas/circulo.png" class="shape circle" alt="">
+
+      <img src="./img/formas/medio-circulo.png" class="shape half-circle1" alt="">
+
+      <img src="./img/formas/medio-circulo.png" class="shape half-circle2" alt="">
+
+      <img src="./img/formas/x.png" class="shape xshape" alt="">
+
+      <img src="./img/formas/ondas.png" class="shape wave wave1" alt="">
+
+      <img src="./img/formas/ondas.png" class="shape wave wave2" alt="">
+
+      <img src="./img/formas/triangulo.png" class="shape triangle" alt="">
+
+      <img src="./img/formas/letras.png" class="letters" alt="">
+
+      <img src="./img/formas/puntos1.png" class="points points1" alt="">
+    </div>
+
+    <nav>
+      <!-- Barra de navegación -->
+
+      <div class="container">
+        <div class="logo">
+          <!-- Logo del sitio -->
+
+          <img src="./img/formas/logo.png" alt="logo Cristian Mayor">
         </div>
 
-        <nav >
-          <div class="container">
-            <div class="logo">
-              <img src="./img/logo.png" alt="" />
-            </div>
+        <div class="links">
+          <!-- Menú de enlaces -->
 
-            <div class="links">
-              <ul>
-                <li>
-                  <a href="#services">Formación</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portafolio</a>
-                </li>
-                <li>
-                  <a href="#about">Habilidades</a>
-                </li>
-                <li>
-                  <a href="#blog">Contribución</a>
-                </li>
-                <li>
-                  <a href="#testimonials">Testimonios</a>
-                </li>
-                <li>
-                  <a href="#contact">Contacto</a>
-                </li>
-                <li>
-                  <a href="https://wa.me/573192378959" class="active" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-                </li>
-              </ul>
-            </div>
+          <ul>
+            <!-- Enlaces a las diferentes secciones de la página -->
 
-            <div class="hamburger-menu">
-              <div class="bar"></div>
-            </div>
-          </div>
-        </nav>
+            <li>
+              <a href="#formacion">Formación</a>
+            </li>
 
-        <div class="back-btn-wrap">
-          <a href="#" class="back-btn">
-            <i class="fas fa-chevron-up"></i>
-          </a>
+            <li>
+              <a href="#portafolio">Portafolio</a>
+            </li>
+
+            <li>
+              <a href="#nosotros">Habilidades</a>
+            </li>
+
+            <li>
+              <a href="#blog">Contribución</a>
+            </li>
+
+            <li>
+              <a href="#testimonios">Testimonios</a>
+            </li>
+
+            <li>
+              <a href="#contacto">Contacto</a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/573108258364" class="active" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </li>
+
+            <!-- Enlace a WhatsApp -->
+          </ul>
         </div>
 
-        <div class="header-content">
-          <div class="container grid-2">
-            <div class="column-1">
-              <h1 class="header-title">Acerca de mí</h1>
-              <p class="text">
-                El trabajo de un desarrollador web implica estar 
-                centrado en el proyecto y trabajar con un equipo 
-                de personas que coordinen las necesidades del 
-                cliente con el producto final. <br>
-                Implementamos diversas soluciones que aportan
-                valor a nuestros clientes, entregando calidad 
-                a través de estándares profesionales, 
-                tecnológicos y de seguridad.
-              </p>
-              <a href="https://drive.google.com/file/d/1PScbjN2xFtviWrOevnpjrOhTsoXdPW4X/view?usp=sharing" class="btn" target="_blank" rel="noopener noreferrer">Ver Currículum</a>
-            </div>
-
-            <div class="column-2 image">
-              <img src="./img/shapes/points2.png" class="points points2"alt=""/>
-              <img src="./img/person.png" class="img-element z-index" alt="" />
-            </div>
-          </div>
+        <div class="hamburger-menu">
+          <!-- Menú hamburguesa para dispositivos móviles -->
+          <div class="bar"></div>
         </div>
-      </header>
+      </div>
+    </nav>
 
-      <section class="services section" id="services">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Lo que hago">Formación</h3>
-            <p class="text">
-            Fortalecimiento constante de diversas habilidades,  
-            permitiendo estar a la vanguardia de la tecnología 
-            y el crecimiento personal.
-            </p>
-          </div>
-          
-          <div class="section-body grid-2">
+    <!-- End Barra de navegación -->
+    <!-- Contenido principal del encabezado -->
+
+    <div class="header-content">
+      <div class="container grid-2">
+        <div class="column-1">
+          <!-- Columna de texto con la presentación -->
+
+          <h1 class="header-title">Acerca de mí</h1>
+
+          <p class="text">
+            <!-- Descripción sobre el trabajo como desarrollador web -->
+            El trabajo de un desarrollador web implica estar centrado en el proyecto y trabajar con un equipo de
+            personas que coordinen las necesidades del cliente con el producto final.
+            Implementamos diversas soluciones que aportan valor a nuestros clientes, entregando calidad a través de
+            estándares profesionales, tecnológicos y de seguridad.
+          </p>
+
+          <!-- Enlace al currículum en Google Drive -->
+
+          <a href="https://drive.google.com/file/d/1_ZtdZCBBhZZoL3ZU61wRNdXO1HyIULwy/view?usp=sharing" class="btn"
+            target="_blank" rel="noopener noreferrer">Ver Currículum</a>
+        </div>
+
+        <div class="column-2 image">
+          <!-- Columna con la imagen del perfil -->
+
+          <img src="./img/formas/puntos2.png" class="points points2" alt="">
+
+          <img src="./img/personal.png" class="img-element z-index" alt="">
+
+          <!-- Imagen personal del desarrollador -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contenido principal del sitio web -->
+
+    <section class="services section-1" id="formacion">
+      <!-- Sección de "Formación", donde se destacan las habilidades del desarrollador -->
+
+      <div class="container">
+        <!-- Contenedor principal que agrupa todo el contenido de la sección -->
+
+        <div class="section-header">
+          <!-- Encabezado de la sección -->
+
+          <h3 class="title" data-title="Lo que hago">Formación</h3>
+
+          <!-- Título principal de la sección, indicando que se habla sobre formación -->
+
+          <p class="text">
+            <!-- Descripción de la sección -->
+            Fortalecimiento constante de diversas habilidades, permitiendo estar a la vanguardia de la tecnología y el
+            crecimiento personal.
+          </p>
+        </div>
+
+        <div class="section-body grid-2">
+          <!-- Cuerpo de la sección con dos columnas (grid-2) -->
+
           <div class="column-1">
-          <div class="skills">
-            <div class="skill html">
-              <h3 class="skill-title">HTML</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="90%"></div>
+            <!-- Primera columna para mostrar habilidades técnicas -->
+
+            <div class="skills">
+              <!-- Contenedor de habilidades -->
+
+              <div class="skill html">
+                <h3 class="skill-title">HTML</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="90%"></div>
+
+                  <!-- La barra de progreso que indica el nivel de habilidad en HTML (90%) -->
+                </div>
               </div>
-            </div>
-            <div class="skill css">
-              <h3 class="skill-title">CSS</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="70%"></div>
+
+              <div class="skill css">
+                <h3 class="skill-title">CSS</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Barra de progreso para CSS -->
+                </div>
               </div>
-            </div>
+
               <div class="skill css">
                 <h3 class="skill-title">JavaScript</h3>
+
+                <!-- Título de la habilidad -->
+
                 <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
                   <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Barra de progreso para JavaScript -->
                 </div>
               </div>
+
               <div class="skill css">
                 <h3 class="skill-title">PHP</h3>
+
+                <!-- Título de la habilidad -->
+
                 <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
                   <div class="skill-progress" data-progress="50%"></div>
+
+                  <!-- Barra de progreso para PHP -->
+                </div>
+              </div>
+
+              <div class="skill css">
+                <h3 class="skill-title">GIT & GITHUB</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="50%"></div>
+
+                  <!-- Barra de progreso para PHP -->
                 </div>
               </div>
             </div>
           </div>
-        
-            <div class="column-2">
+
+          <div class="column-2">
+            <!-- Segunda columna para mostrar habilidades adicionales -->
+
             <div class="skills">
-            <div class="skill js">
-              <h3 class="skill-title">Gestión y configuración plataformas Cloud - cPanel - Linux</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="70%"></div>
-              </div>
-            </div>
-            <div class="skill js">
-              <h3 class="skill-title">Soporte técnico Hosting</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="90%"></div>
-              </div>
-            </div>
-          <div class="skill js">
-          <h3 class="skill-title">WordPress & CMS</h3>
-          <div class="skill-bar">
-            <div class="skill-progress" data-progress="80%"></div>
-          </div>
-        </div>
-        <div class="skill css">
-          <h3 class="skill-title">Ecommerce & Pasarelas de pago</h3>
-          <div class="skill-bar">
-            <div class="skill-progress" data-progress="70%"></div>
-          </div>
-        </div>
-    </div>
-  </div>
-  </div>
-    </div>
-  
-       
-      <div class="cards">
-        <div class="card-wrap">
-          <img
-            src="./img/shapes/points3.png"
-            class="points points1 points-sq"
-            alt=""
-          />
-          <div class="card" data-card="DISEÑO">
-            <div class="card-content z-index">
-              <img src="./img/design-icon.png" class="icon" alt="" />
-              <h3 class="title-sm">Diseño web</h3>
-              <p class="text">
-                Son la base de todos los medios visuales: 
-                están en el arte, el diseño web e, incluso, 
-                en pequeños detalles, como las tipografías.
-                El diseño gráfico hace referencia a aquella 
-                actividad dedicada al desarrollo de unos 
-                determinados contenidos que permiten comunicarse visualmente.
-              </p>
-              <button id="openPopup" class="btn" data-popup="popup">Abrir Popup</button>
-              <div id="popup" class="popup">
-                <div class="popup-content">
-                    <span class="close">&times;</span>
-                    <h2>Algunas Certificaciones</h2>
-                    <div><br>
-                        <ul class="diploma-list">
-                           <li><a href="https://drive.google.com/file/d/1apnLHWWPiX_dlNqibQrSVtjW-J8p0If6/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> MANEJO DE ADOBE PHOTOSHOP</a></li>  
-                           <li><a href="https://drive.google.com/file/d/1tDnt70GBD6A1t5LWeYujuxeOL2YooL2W/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> MANEJO DE ADOBE ILLUSTRATOR</a></li>
-                           <li><a href="https://drive.google.com/file/d/1uNYh84k0lVpW5ASvfwBgTmU1KFcKReDr/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> DISEÑO Y DESARROLLO DE SITIOS WEB ACCESIBLES.</a></li>
-                           <li><a href="https://drive.google.com/file/d/1AwD43zO4LPPghzMTx3lu_8hMKYM3Wa4N/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> ADOBE FLASH PROFESSIONAL CS5.5</a></li>  
-                           <li><a href="https://drive.google.com/file/d/140_VKejKz24dyxhlOPmVReVRLk7kwVH1/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> FUNDAMENTOS DE DISEÑO</a></li>
-                           <li><a href="https://drive.google.com/file/d/1BnpeVcJQeS8C0Ied2TraOFABgY6b7gcA/view?usp=sharing" target="_blank"><i class="fas fa-scroll"></i> APRENDIZ DIGITAL</a></li>
-                        </ul>
-                    </div>
-                    <button id="closePopup1" class="btn">Cerrar</button>
-                </div>
-            </div>     
-            </div>
-          </div>
-        </div>
+              <!-- Contenedor de habilidades -->
 
-            <div class="card-wrap">
-              <div class="card" data-card="WEB">
-                <div class="card-content z-index">
-                  <img src="./img/code-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Desarrollo web</h3>
-                  <p class="text">
-                    El desarrollo web se refiere a la construcción, 
-                    creación y mantenimiento de sitios web. 
-                    Incluye aspectos como diseño web, publicación web, 
-                    programación web y base de datos gestión.
-                    Transformo tu idea en un sitio web concreto, 
-                    consistente y flexible. Desarrollo tu idea y 
-                    trabajo en base a propuestas de diseño.
-                  </p> <button id="openPopup1" class="btn" data-popup="popup1">Abrir Popup</button>
-                    <div id="popup1" class="popup">
-                        <div class="popup-content">
-                            <span class="close">&times;</span>
-                            <h2>Algunas Certificaciones</h2>
-                            <div><br>
-                                <ul class="diploma-list">
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> FUNDAMENTOSDE PROGRAMACIÓN Y DESARROLLO WEB</a></li>  
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> BASES DE DATOS GENERALIDADES Y SISTEMAS DE GESTION</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> COMO CREAR TUS PRIMEROS PROYECTOS WEB</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE COMPUTACIÓN BÁSICA</a></li>  
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CSS FUNDAMENTALS COURSE</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> HTML FUNDAMENTALS COURSE</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> SQL FUNDAMENTALS COURSE</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> PHP FUNDAMENTALS COURSE</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO PRÁCTICO DE HTML Y CSS</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE CREACIÓN DE PÁGINAS WEB</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE CREACIÓN DE PÁGINAS WEB CON CHATGPT</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE CREACIÓN DE TIENDAS EN LINEA CON WOOCOMMERCE</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE CREACIÓN DE BLOGS CON WORDPRESS </a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CURSO DE FULL SITE EDITING EN WORDPRESS </a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> DESARROLLO WEB CON PHP</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> PROCESOS DE SOPORTE TECNICO PARA EL MANTENIMIENTO DE EQUIPOS DE COMPUTO</a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> TÉCNICO ENSAMBLE Y MANTENIMIENTO DE COMPUTADORES </a></li>
-                                  <li><a href="" target="_blank"><i class="fas fa-scroll"></i> TECNOLOGO EN ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN </a></li>                                    
-                                </ul>
-                            </div>
-                            <button id="closePopup1" class="btn">Cerrar</button>
-                        </div>
-                    </div>
+              <div class="skill js">
+                <h3 class="skill-title">Docker - Docker Compose</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Barra de progreso para gestión de plataformas Cloud -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">
+                  Gestión y configuración plataformas Cloud - cPanel - Linux
+                </h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Barra de progreso para gestión de plataformas Cloud -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">Soporte técnico Hosting</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="90%"></div>
+
+                  <!-- Barra de progreso para Soporte técnico de Hosting -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">WordPress & CMS</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="80%"></div>
+
+                  <!-- Barra de progreso para WordPress & CMS -->
+                </div>
+              </div>
+
+              <div class="skill css">
+                <h3 class="skill-title">Ecommerce & Pasarelas de pago</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso -->
+
+                  <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Barra de progreso para Ecommerce y Pasarelas de pago -->
                 </div>
               </div>
             </div>
-
-            <div class="card-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                class="points points2 points-sq"
-                alt=""
-              />
-              <div class="card" data-card="MASTER">
-                <div class="card-content z-index">
-                  <img src="./img/app-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Web Master</h3>
-                  <p class="text">
-                    el desarrollo web está en constante avance y es
-                     necesario un compromiso con el aprendizaje constante 
-                     de nuevos conocimientos.
-                    Me apasiona programar y lo hago a tiempo completo. 
-                    Cuéntame tu idea y estaré encantado de desarrollar 
-                    cualquier tipo de sistema que trabaje vía web.
-                  </p>
-                  <button id="openPopup2" class="btn" data-popup="popup2">Abrir Popup</button>
-                    <div id="popup2" class="popup">
-                        <div class="popup-content">
-                            <span class="close">&times;</span>
-                            <h2>Algunas Certificaciones</h2>
-                            <div><br>
-                                <ul class="diploma-list">
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> REDES Y SEGURIDAD</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> PROGRAMACION DE DISPOSITIVOS MOVILES</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> GESTION DE LA SEGURIDAD INFORMATICA</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> NANOTECNOLOGIA Y APLICACIONES</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> PLANEACION DE LA ESTRATEGIA DE VENTAS A TRAVES DEL COMERCIO ELECTRONICO</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> CLOUD COMPUTING</a></li>
-                                    <li><a href="https://academy.yoast.com/certificate/4484/1739330/e84a0fbfd50fa73495b90fc4557334d2/1/" target="_blank"><i class="fas fa-scroll"></i> YOAST SEO FOR WORDPRESS BLOCK EDITOR</a></li>
-                                    <li><a href="" target="_blank"><i class="fas fa-scroll"></i> INGENIERIA DE SISTEMAS(Pendiente Grado)</a></li>
-                                </ul>
-                            </div>
-                            <button id="closePopup2" class="btn">Cerrar</button>
-                        </div>
-                    </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </section>
-
-      <section class="portfolio section" id="portfolio">
-        <div class="background-bg">
-          <div class="overlay overlay-sm">
-            <img
-              src="./img/shapes/half-circle.png"
-              class="shape half-circle1"
-              alt=""
-            />
-            <img
-              src="./img/shapes/half-circle.png"
-              class="shape half-circle2"
-              alt=""
-            />
-            <img src="./img/shapes/square.png" class="shape square" alt="" />
-            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
-            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
-            <img
-              src="./img/shapes/triangle.png"
-              class="shape triangle"
-              alt=""
-            />
-            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Mis trabajos">Portafolio</h3>
-          </div>
-
-          <div class="section-body">
-            <div class="filter">
-              <button class="filter-btn active" data-filter="*">All</button>
-              <button class="filter-btn" data-filter=".ui">UI/UX</button>
-              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
-              <button class="filter-btn" data-filter=".appdev">
-                Web Master
-              </button>
-              <button class="filter-btn" data-filter=".logo-design">
-                Web Design
-              </button>
-            </div>
-
-            <div class="grid">
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port1.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Design</h3>
-                      <h5>
-                        Creamos tu marca, 
-                        diseños personalizados, 
-                        únicos y creativos para poder 
-                        darle la mejor apariencia a tu empresa.						</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port2.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Development</h3>
-                      <h5>El diseño y el desarrollo de un 
-                        sitio Web que se adapte a las necesidades 
-                        de cada cliente, requiere una visión estratégica 
-                        de cada mercado.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port3.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Design</h3>
-                      <h5>Creamos tu marca, 
-                        diseños personalizados, 
-                        únicos y creativos para poder 
-                        darle la mejor apariencia a tu empresa.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port4.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>UI / UX Design</h3>
-                      <h5>El diseño de la aplicación combina la interfaz 
-                        de usuario (UI) y la experiencia del usuario (UX). 
-                        Si bien la interfaz de usuario se adapta al estilo 
-                        general de la aplicación (incluidos los colores, 
-                        las fuentes y el aspecto general)</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port5.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>Como seres humanos, somos reconocedores de patrones naturales. 
-                        No podemos evitarlo. Al ayudar a otros a superar los desafíos, 
-                        descubrirá patrones, soluciones y técnicas que también impulsarán 
-                        sus propios conocimientos y avances.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item appdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port6.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>App Development</h3>
-                      <h5>La diferencia entre un buen diseño de la aplicación 
-                        y uno deficiente suele ser la calidad de la experiencia 
-                        del usuario. Los tiempos de carga rápidos, la facilidad 
-                        de uso y la satisfacción general del cliente.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item logo-design">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port7.jpg" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Logo Design</h3>
-                      <h5>Como seres humanos, somos reconocedores de patrones naturales. 
-                        No podemos evitarlo. Al ayudar a otros a superar los desafíos, 
-                        descubrirá patrones, soluciones y técnicas que también impulsarán 
-                        sus propios conocimientos y avances.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item appdev ui">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port8.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>App Development</h3>
-                      <h5>La diferencia entre un buen diseño de la aplicación 
-                        y uno deficiente suele ser la calidad de la experiencia 
-                        del usuario. Los tiempos de carga rápidos, la facilidad 
-                        de uso y la satisfacción general del cliente.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="grid-item ui webdev">
-                <div class="gallery-image">
-                  <img src="./img/portfolio/port9.png" alt="" />
-                  <div class="img-overlay">
-                    <div class="plus"></div>
-                    <div class="img-description">
-                      <h3>Web Design</h3>
-                      <h5>Creamos tu marca, 
-                        diseños personalizados, 
-                        únicos y creativos para poder 
-                        darle la mejor apariencia a tu empresa.</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </section>
-
-      <section class="about section" id="about">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Quienes Somos">Habilidades Blandas</h3>
-          </div>
-
-          <div class="section-body grid-2">
-            <div class="column-1">
-              <h3 class="title-sm">
-                Hola, </h3>
-              <p class="text">
-                Me gusta lo que hacemos en equipo y creemos profundamente en nuestras 
-                capacidades. En cada nuevo proyecto, analizamos la situación 
-                de nuestros clientes, extraemos hipótesis y buscamos las tecnologías 
-                y experiencias adecuadas.
-                Buscar nuevas propuestas, originales, y que rompan el esquema establecido, 
-                será una de las Habilidades Blandas que mayores frutos dará en la
-                experiencia laboral.
-              </p>
-              <div class="skills">
-                <div class="skill html">
-                  <h3 class="skill-title">Trabajo en equipo</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="98%"></div>
-                  </div>
-                </div>
-                <div class="skill css">
-                  <h3 class="skill-title">Responsabilidad</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="90%"></div>
-                  </div>
-                </div>
-                <div class="skill js">
-                  <h3 class="skill-title">Innovación</h3>
-                  <div class="skill-bar">
-                    <div class="skill-progress" data-progress="65%"></div>
-                  </div>
-                </div>
-            <div class="skill js">
-              <h3 class="skill-title">Pensamiento crítico</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="80%"></div>
-              </div>
-            </div>
-            <div class="skill js">
-              <h3 class="skill-title">Adaptabilidad</h3>
-              <div class="skill-bar">
-                <div class="skill-progress" data-progress="70%"></div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-
-
-            <div class="column-2 image">
-              <img src="./img/shapes/points4.png" class="points" alt="" />
-              <img src="./img/about.png" class="z-index" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="records">
-        <div class="overlay overlay-sm">
-          <img src="./img/shapes/square.png" alt="" class="shape square1" />
-          <img src="./img/shapes/square.png" alt="" class="shape square2" />
-          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
-          <img
-            src="./img/shapes/half-circle.png"
-            alt=""
-            class="shape half-circle"
-          />
-          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
-          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
-          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
-          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
-        </div>
-
-        <div class="container">
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="30">0</h2>
-              <h4 class="sub-title">Proyectos</h4>
-            </div>
-          </div>
-  
-          <div class="wrap">
-            <div class="record-circle active">
-              <h2 class="number" data-num="20">0</h2>
-              <h4 class="sub-title">Clientes felices</h4>
-            </div>
-          </div>
-  
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="50000">0</h2>
-              <h4 class="sub-title">Hora de trabajo</h4>
-            </div>
-          </div>
-  
-          <div class="wrap">
-            <div class="record-circle">
-              <h2 class="number" data-num="3">0</h2>
-              <h4 class="sub-title">Premios</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="blog section" id="blog">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Proyectos">Contribución</h3>
-            <p class="text">
-              ¡Bienvenido a mi blog! Aquí publico Tips y novedades sobre
-              mis paciones & nuevas tecnologías .
-            </p>
-          </div>
-
-          <div class="blog-wrapper">
-            <div class="blog-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                alt=""
-                class="points points-sq"
-              />
-
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog1.png" alt="" />
-                </div>
-
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">Enero, 22 2022</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Cmayor</h5>
-                  </div>
-                  <h3 class="title-sm">La magia de esta profesión</h3>
-                  <p class="blog-text">
-                    Ayuda a convertir cualquier diseño en 
-                    instrucciones que una computadora pueda seguir. 
-                    Una página web funcional y atractiva, requiere el apoyo de un desarrollador que 
-                    transforme esas ideas y genere todas las herramientas para crear un sitio funcional.
-                    No existe lo fácil, ni siquiera nos gusta. De hecho, una de las variables que más influye 
-                    en el valor que le otorgamos a un logro es el esfuerzo que nos ha costado conseguirlo… 
-                    porque en ese esfuerzo va algo propio y eso genera orgullo. 
-                    
-                  </p>
-                  <a href="https://wa.me/573133118833" class="btn small" target="_blank" rel="noopener noreferrer">Saber más</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="blog-wrap">
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog2.png" alt="" />
-                </div>
-
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">Enero, 23 2022</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Cmayor</h5>
-                  </div>
-                  <h3 class="title-sm">Nos apasiona lo que hacemos </h3>
-                  <p class="blog-text">
-                    Creemos que esa es verdaderamente la fuente de inspiración, la pasión por la tecnología es una fuerte atracción
-                    a la innovación con factores como la información o el desarrollo de nuevos prototipos. 
-                    Hoy en el mundo, la implementación de máquinas que solucionan necesidades o problemas 
-                    de la humanidad hacen parte del día a día y en todo el mundo existen más personas con sueños que están
-                    emprendiendo en el mundo de la tecnología para desarrollar y crear nuevos modelos y soluciones.
-                  </p>
-                  <a href="https://wa.me/573133118833" class="btn small" target="_blank" rel="noopener noreferrer">Saber más</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="blog-wrap">
-              <div class="blog-card">
-                <div class="blog-image">
-                  <img src="./img/blog3.png" alt="" />
-                </div>
-
-                <div class="blog-content">
-                  <div class="blog-info">
-                    <h5 class="blog-date">Enero, 24 2022</h5>
-                    <h5 class="blog-user"><i class="fas fa-user"></i>Cmayor</h5>
-                  </div>
-                  <h3 class="title-sm">Simplificar currículum Cmayor</h3>
-                  <p class="blog-text">
-                    Tecnólogo en análisis y desarrollo de sistemas de
-                    la información con capacidades de procesamiento
-                    o sistematización de información, diseñando
-                    aplicaciones para proveer soluciones a estos
-                    problemas y – o necesidades que se requieran.
-                    Espíritu crítico, con creatividad, pensamiento
-                    lógico con capacidades de abstracción, de análisis
-                    y síntesis, con disposición al trabajo en equipo,
-                    inquietos por la observación, la investigación y el
-                    autoaprendizaje.
-                  </p>
-                  <a href="https://wa.me/573133118833" class="btn small" target="_blank" rel="noopener noreferrer">Saber más</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials section" id="testimonials">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title" data-title="Lo que dice la gente">Testimonios</h3>
-          </div>
-
-          <div class="testi-content grid-2">
-            <div class="column-1 reviews">
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      Justamente estoy trabajando en retoques a mis 
-                      páginas de ventas y tus consejos me han venido 
-                      como anillo al dedo!!  Gracias!
-                    </p>
-  
-                    <div class="review-info">
-                      <h3 class="review-name">Hary Nieto</h3>
-                      <h5 class="review-job">CEO Detalles Violeta, Paris</h5>
-                    </div>
-                  </div>
-
-                  
-
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      Gracias ALSOTEC, eres excelente en 
-                      esto del marketing, bendiciones.
-                    </p>
-  
-                    <div class="review-info">
-                      <h3 class="review-name">Alejandra Salazar</h3>
-                      <h5 class="review-job">Directora Fucavi, Colombia</h5>
-                    </div>
-                  </div>
-
-                  <div class="swiper-slide review">
-                    <i class="fas fa-quote-left quote"></i>
-                    <div class="rate">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                    </div>
-
-                    <p class="review-text">
-                      «Estoy encantado con el sistema.»
-                      «Yo no puedo más que recomendar los servicios de Alsotec.»
-                    </p>
-
-                    <div class="review-info">
-                      <h3 class="review-name">Viviana Rosero</h3>
-                      <h5 class="review-job">vivianarosero.com CEO, España</h5>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="review-nav swiper-button-prev">
-                  <i class="fas fa-long-arrow-alt-left"></i>
-                </div>
-                <div class="review-nav swiper-button-next">
-                  <i class="fas fa-long-arrow-alt-right"></i>
-                </div>
-              </div>
-            </div>
-
-            <div class="column-2 image">
-              <img src="./img/testi.png" alt="" class="img-element" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="container">
-          <div class="contact-box">
-            <div class="contact-info">
-              <h3 class="title">Contáctame</h3>
-              <p class="text">
-              Apoyamos el crecimiento de nuestros clientes, 
-              reconociéndolos como eje fundamental, 
-              siempre trabajando en equipo para lograr el 
-              cumplimiento de objetivos.
-              </p>
-              <div class="information-wrap">
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                  </div>
-                  <p class="info-text">Calle 58A 22G 16 Bogota, Colombia.</p>
-                </div>
-
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-paper-plane"></i>
-                  </div>
-                  <p class="info-text">cristian.mayor@cun.edu.co</p>
-                </div>
-
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-phone-alt"></i>
-                  </div>
-                  <p class="info-text">+57 3192378959</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="contact-form">
-              <h3 class="title">Ingresa tus datos</h3>
-              <form 
-              action="https://formspree.io/f/xeojodyv"
-              method="POST"
-              >
-                
-              <div class="row">
-                
-                <input
-                  type="text" name="asunto"
-                  class="contact-input"
-                  placeholder="Asunto"
-                />
-                <input
-                  type="text" name="nombre"
-                  class="contact-input"
-                  placeholder="Nombre"
-                />
-              </div>
-
-              <div class="row">
-                <input type="text" name="telefono" class="contact-input" placeholder="Numero de contacto" />
-                <input type="email" name="email" class="contact-input" placeholder="Correo electrónico" />
-              </div>
-
-              <div class="row">
-                <textarea
-                  name="comentarios"
-                  class="contact-input textarea"
-                  placeholder="Mensaje"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn">Enviar</a>
-            </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="hireme" id="hireme">
-        <div class="container">
-          <h3 class="title">Hablemos de un proyecto</h3>
-          <p class="text">
-            Como emprendedor & equipo, estamos en constante innovación en el 
-          mercado TI, sobre todo actualizándonos con las últimas 
-          tendencias digitales para dar como resultado una constante 
-          evolución en nuestra comunidad y nuestros clientes.
-          </p>
-          <a href="https://wa.me/573192378959" class="btn">Contratame</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="grid-4">
-          <div class="grid-4-col footer-about">
-            <h3 class="title-sm">Soluciones Web</h3>
-            <p class="text">
-              Implementamos diversas soluciones que aportan 
-              valor a nuestros clientes, entregando calidad 
-              a través de estándares profesionales, tecnológicos 
-              y de seguridad.
-            </p>
-          </div>
-
-          <div class="grid-4-col footer-links">
-            <h3 class="title-sm">Links</h3>
-            <ul>
-              <li>
-                <a href="#services">Formación</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portafolio</a>
-              </li>
-              <li>
-                <a href="#about">Habilidades</a>
-              </li>
-              <li>
-                <a href="#blog">Contribución</a>
-              </li>
-              <li>
-                <a href="#testimonials">Testimonios</a>
-              </li>
-              <li>
-                <a href="#contact">Contacto</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="grid-4-col footer-links">
-            <h3 class="title-sm">Servicios</h3>
-            <ul>
-              <li>
-                <a href="#">Web Design</a>
-              </li>
-              <li>
-                <a href="#">Web Dev</a>
-              </li>
-              <li>
-                <a href="#">App Design</a>
-              </li>
-              <li>
-                <a href="#">Marketing</a>
-              </li>
-              <li>
-                <a href="#">UI Design</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="grid-4-col footer-newstletter">
-            <h3 class="title-sm">Suscríbete</h3>
-            <p class="text">
-              Para conocer nuestros Tips!! te envíaremos periódicamente 
-            Newsletters con informativas que pueden incluir información
-            y publicidad de nuestros productos o servicios y/o de 
-            nuestros partners.
-            </p>
-            <div class="footer-input-wrap">
-              <input type="email" class="footer-input" placeholder="Email" />
-              <a href="#" class="input-arrow">
-                <i class="fas fa-angle-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="bottom-footer">
-          <div class="copyright">
-            <p class="text">
-              Copyright&copy;2022 - 2024 Reservados todos los derechos | Made in Colombia
-              <span>Cristian Mayor</span>
-            </p>
-          </div>
-
-          <div class="followme-wrap">
-            <div class="followme">
-              <h3>Sígueme</h3>
-              <span class="footer-line"></span>
-              <div class="social-media">
-                <a href="https://www.facebook.com/profile.php?id=100071380954370">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/alsotec/">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/also-tecnologia-7a8889217/">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            </div>
-
-            
           </div>
         </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/isotope.pkgd.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
-  </body>
+    <section>
+      <div class="container">
+        <!-- Contenedor principal que agrupa todo el contenido de la sección -->
+
+        <div class="cards">
+          <!-- Contenedor de tarjetas (cada tarjeta muestra un servicio diferente) -->
+
+          <div class="card-wrap">
+            <!-- Contenedor de la primera tarjeta -->
+
+            <img src="./img/formas/puntos3.png" class="points points1 points-sq" alt="">
+
+            <!-- Imagen decorativa para la tarjeta -->
+
+            <div class="card" data-card="UI/UX">
+              <!-- Tarjeta de servicio de diseño web -->
+
+              <div class="card-content z-index">
+                <!-- Contenido dentro de la tarjeta -->
+
+                <img src="./img/design-icon.png" class="icon" alt="">
+
+                <!-- Icono representativo del diseño web -->
+
+                <h3 class="title-sm">Diseño web</h3>
+
+                <!-- Título de la tarjeta: Diseño web -->
+
+                <p class="text">
+                  <!-- Descripción del servicio de diseño web -->
+                  Creación de logotipos para su empresa, económicos pero, sin perder la calidad digital y la gráfica en
+                  su composición, para expresar el estilo de su empresa.
+                </p>
+
+                <a href="#" class="btn small" data-popup="diseño">Diseño Web</a>
+
+                <!-- Botón que abre un popup con más detalles sobre diseño web -->
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <!-- Contenedor de la segunda tarjeta -->
+
+            <div class="card" data-card="CODIGO">
+              <!-- Tarjeta de servicio de desarrollo web -->
+
+              <div class="card-content z-index">
+                <!-- Contenido dentro de la tarjeta -->
+
+                <img src="./img/code-icon.png" class="icon" alt="">
+
+                <!-- Icono representativo del desarrollo web -->
+
+                <h3 class="title-sm">Desarrollo web</h3>
+
+                <!-- Título de la tarjeta: Desarrollo web -->
+
+                <p class="text">
+                  <!-- Descripción del servicio de desarrollo web -->
+                  Transformo tu idea en un sitio web concreto, consistente y flexible. Desarrollo tu idea y trabajo en
+                  base a propuestas de diseño.
+                </p>
+
+                <a href="#" class="btn small" data-popup="desarrollo">Desarrollo Web</a>
+
+                <!-- Botón que abre un popup con más detalles sobre desarrollo web -->
+              </div>
+            </div>
+          </div>
+
+          <div class="card-wrap">
+            <!-- Contenedor de la tercera tarjeta -->
+
+            <img src="./img/formas/puntos3.png" class="points points2 points-sq" alt="">
+
+            <!-- Imagen decorativa para la tarjeta -->
+
+            <div class="card" data-card="WEB">
+              <!-- Tarjeta de servicio de Web Master -->
+
+              <div class="card-content z-index">
+                <!-- Contenido dentro de la tarjeta -->
+
+                <img src="./img/app-icon.png" class="icon" alt="">
+
+                <!-- Icono representativo de Web Master -->
+
+                <h3 class="title-sm">Web Master</h3>
+
+                <!-- Título de la tarjeta: Web Master -->
+
+                <p class="text">
+                  <!-- Descripción del servicio de Web Master -->
+                  Me apasiona programar y lo hago a tiempo completo. Cuéntame tu idea y estaré encantado de desarrollar
+                  cualquier tipo de sistema que trabaje vía web.
+                </p>
+
+                <a href="#" class="btn small" data-popup="webmaster">Web Master</a>
+
+                <!-- Botón que abre un popup con más detalles sobre Web Master -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="popup-diseño" class="popup hidden">
+        <!-- Popups para cada servicio, inicialmente ocultos -->
+
+        <div class="popup-content">
+          <h2 class="title-sm">Diseño Web</h2>
+
+          <!-- Título del popup de Diseño Web -->
+
+          <p class="text">Algunas Certificaciones</p>
+
+          <!-- Descripción de los detalles del servicio -->
+
+          <div class="card-wrap">
+            <br>
+
+            <ul class="diploma-list">
+              <li>
+                <a href="https://drive.google.com/file/d/1apnLHWWPiX_dlNqibQrSVtjW-J8p0If6/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  MANEJO DE ADOBE PHOTOSHOP
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1tDnt70GBD6A1t5LWeYujuxeOL2YooL2W/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  MANEJO DE ADOBE ILLUSTRATOR
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1uNYh84k0lVpW5ASvfwBgTmU1KFcKReDr/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  DISEÑO Y DESARROLLO DE SITIOS WEB ACCESIBLES.
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1AwD43zO4LPPghzMTx3lu_8hMKYM3Wa4N/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  ADOBE FLASH PROFESSIONAL CS5.5
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/140_VKejKz24dyxhlOPmVReVRLk7kwVH1/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  FUNDAMENTOS DE DISEÑO
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1BnpeVcJQeS8C0Ied2TraOFABgY6b7gcA/view?usp=sharing"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  APRENDIZ DIGITAL
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="close-popup">Cerrar</button>
+
+          <!-- Botón para cerrar el popup -->
+        </div>
+      </div>
+
+      <div id="popup-desarrollo" class="popup hidden">
+        <div class="popup-content1">
+          <h2 class="title-sm">Desarrollo Web</h2>
+
+          <!-- Título del popup de Desarrollo Web -->
+
+          <p class="text">
+            Detalles sobre los servicios de desarrollo web...
+          </p>
+
+          <!-- Descripción de los detalles del servicio -->
+
+          <div class="card-wrap">
+            <br>
+
+            <div class="contenedor">
+              <div class="column-l1">
+                <ul class="diploma-list1">
+                  <li>
+                    <a href="https://drive.google.com/file/d/1YafZlErpfiD-Gd4MNzwubDVs60IeL8XY/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      FUNDAMENTOS DE PROGRAMACIÓN Y DESARROLLO WEB
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1M-c4KWs3obz8ZuuvGQu_cjv5Z0ipBZTN/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      BASES DE DATOS GENERALIDADES Y SISTEMAS DE GESTION
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1O1FBGcE9z7RpMP9AL4Rw06sXB9rWfvYt/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      COMO CREAR TUS PRIMEROS PROYECTOS WEB
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1GizKrNQAELwiPzZhSCbwj6sS_Y7lG_Ac/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE COMPUTACIÓN BÁSICA
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1MdbwGA_xOE6w9IoI_DM7HKIIpvmEv9Jb/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CSS FUNDAMENTALS COURSE
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1d03d-jlTpfG539asRQzWThcX04jiKOez/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      HTML FUNDAMENTALS COURSE
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1xXIbnGqoDF5a3zZT86xts8cyfYLBNEuU/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      SQL FUNDAMENTALS COURSE
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1E6bH6B2vd2x71RWu-TtOw9-mB05tw6Mf/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      PHP FUNDAMENTALS COURSE
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1pGnZd9M_uz9hwUulLd2K0KSHth63sQga/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO PRÁCTICO DE HTML Y CSS
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1KybxJxnBU9EwCnVDo2K19thpXHRV-43x/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE CREACIÓN DE PÁGINAS WEB
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="column-l2">
+                <ul class="diploma-list2">
+                  <li>
+                    <a href="https://drive.google.com/file/d/1nxd_VEr50GH5wFZkp9frFFoLMcn4Dvx2/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      INSTALACIÓN Y CONFIGURACIÓN XAMPP COMO SERVIDOR LOCAL BAJO WINDOWS
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="https://drive.google.com/file/d/1WH_4n7f6LaAeiGR1h2ObshJIV5N6HA2L/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE CREACIÓN DE PÁGINAS WEB CON CHATGPT
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1IIPnw1jLfzJUqrXy8gA2F53LgZB56gEq/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE CREACIÓN DE TIENDAS EN LINEA CON WOOCOMMERCE
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1s4-uhCbWmDZ_5cpWAoslV74HS2GDqMrO/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE CREACIÓN DE BLOGS CON WORDPRESS
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1bbVUeh8_LrBZx7YX8JpvA7UoQN6LXl24/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      CURSO DE FULL SITE EDITING EN WORDPRESS
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1JQ8LhwGUM0Sw4Hui-M6C5e4iHt0Lg-Y7/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      DESARROLLO WEB CON PHP
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1kQhk6_6Rko9JHCUDhOarTPFtXkKx3b9U/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      PROCESOS DE SOPORTE TECNICO PARA EL MANTENIMIENTO DE EQUIPOS DE COMPUTO
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/19M0EJIezfH_NkNeOkXh4OLhEKqjT2sjf/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      TÉCNICO ENSAMBLEJE Y MANTENIMIENTO DE COMPUTADORES
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://drive.google.com/file/d/1GlV5eUL3n7Y7xLtT2VGmnUsUmYCD7tCc/view?usp=sharing" target="_blank">
+                      <i class="fas fa-scroll"></i>
+                      TECNOLOGO EN ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACIÓN
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <button class="close-popup">Cerrar</button>
+
+          <!-- Botón para cerrar el popup -->
+        </div>
+      </div>
+
+      <div id="popup-webmaster" class="popup hidden">
+        <div class="popup-content">
+          <h2 class="title-sm">Web Master</h2>
+
+          <!-- Título del popup de Web Master -->
+
+          <p class="text">
+            Detalles sobre los servicios de webmaster...
+          </p>
+
+          <!-- Descripción de los detalles del servicio -->
+
+          <div class="card-wrap">
+            <br>
+
+            <ul class="diploma-list">
+              <li>
+                <a href="https://drive.google.com/file/d/1LguCLsgSDHwMqt1ZZHA6Fgyyq38B1Php/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  REDES Y SEGURIDAD
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1BHpsJogivLreD81-fWWMZaFJ5Tq4IQwz/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  PROGRAMACION DE DISPOSITIVOS MOVILES
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1Gs1TbmxkD-LQfG8Z-Tuls4VujPxLtjAz/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  GESTION DE LA SEGURIDAD INFORMATICA
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1LgBIMEy2x4TmgAze8eq51d3LojYLhlLX/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  NANOTECNOLOGIA Y APLICACIONES
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1iUaHrXq4BOp5OfoY_1OhJ3fbgAO9STHJ/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  PLANEACION DE LA ESTRATEGIA DE VENTAS A TRAVES DEL COMERCIO ELECTRONICO
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1LqxWqmGC3zU-3lwmlG4z2rvqXohKheba/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  EMPRENDIMIENTO DIGITAL.
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1U3v0LeH_KeEYNhkFi9-IVRwBATuHYJLZ/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  CLOUD COMPUTING
+                </a>
+              </li>
+
+              <li>
+                <a href="https://academy.yoast.com/certificate/4484/1739330/e84a0fbfd50fa73495b90fc4557334d2/1/"
+                  target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  YOAST SEO FOR WORDPRESS BLOCK EDITOR
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1D8gY3AkpdNo8zKPVN5-d6co37cmbA14x/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  CRM - LA ADMINISTRACION DE LA RELACION CON LOS CLIENTES
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1DR1_oV1kjuaq6Ggx9jHHFeQjVBvzgYOy/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  DESPLIEGUE DE APLICACIONES Y SERVICIOS EN CONTENEDORES DOCKER
+                </a>
+              </li>
+
+              <li>
+                <a href="https://drive.google.com/file/d/1pXZTdrHpKWEpVcEb9SIn3A8vV3TRHCeX/view?usp=sharing" target="_blank">
+                  <i class="fas fa-scroll"></i>
+                  DATA SCIENCE E INTELIGENCIA ARTIFICIAL
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="close-popup">Cerrar</button>
+
+          <!-- Botón para cerrar el popup -->
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portafolio">
+      <!-- Sección de portafolio, donde se muestran los trabajos realizados -->
+
+      <div class="background-bg">
+        <!-- Fondo con imágenes decorativas que sirven para dar un toque visual -->
+
+        <div class="overlay overlay-sm">
+          <!-- Overlay para darle un estilo y color al fondo -->
+
+          <img src="./img/formas/medio-circulo.png" class="shape half-circle1" alt="">
+
+          <img src="./img/formas/medio-circulo.png" class="shape half-circle2" alt="">
+
+          <img src="./img/formas/cuadrado.png" class="shape square" alt="">
+
+          <img src="./img/formas/ondas.png" class="shape wave" alt="">
+
+          <img src="./img/formas/circulo.png" class="shape circle" alt="">
+
+          <img src="./img/formas/triangulo.png" class="shape triangle" alt="">
+
+          <img src="./img/formas/x.png" class="shape xshape" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Contenedor que agrupa todo el contenido de la sección -->
+
+        <div class="section-header">
+          <!-- Encabezado de la sección de portafolio -->
+
+          <h3 class="title" data-title="Mis trabajos">Portafolio</h3>
+        </div>
+
+        <div class="section-body">
+          <!-- Cuerpo de la sección de portafolio -->
+
+          <div class="filter">
+            <!-- Filtros para seleccionar el tipo de trabajos mostrados -->
+
+            <button class="filter-btn active" data-filter="*">All</button>
+
+            <button class="filter-btn" data-filter=".ui">UI/UX</button>
+
+            <button class="filter-btn" data-filter=".appdev">Web Master</button>
+
+            <button class="filter-btn" data-filter=".webdev">Desarrollo Web</button>
+
+            <button class="filter-btn" data-filter=".logo-design">Diseño Grafico</button>
+          </div>
+
+          <div class="grid">
+            <!-- Contenedor de la galería de trabajos -->
+
+            <div class="grid-item ui">
+              <!-- Item de la galería, relacionado con UI/UX -->
+
+              <div class="gallery-image">
+                <a href="#" target="_blank">
+                  <img src="./img/portafolio/ui-ux.png" alt="Imagen de ui-ux">
+
+                  <div class="img-overlay">
+                    <!-- Overlay que aparece sobre la imagen cuando se pasa el mouse -->
+
+                    <div class="img-description">
+                      <h3>
+                        Diseño
+
+                        <br>
+                        UX y UI
+                      </h3>
+
+                      <h5>
+                        <!-- Descripción breve del trabajo realizado -->
+                        La diferencia entre un buen diseño de la aplicación y uno deficiente suele ser la calidad de la
+                        experiencia del usuario. Los tiempos de carga rápidos, la facilidad de uso y la satisfacción
+                        general del cliente.
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid-item webdev">
+              <!-- Item de la galería, relacionado con Desarrollo Web -->
+
+              <div class="gallery-image">
+                <a href="https://experian.universodecreadores.com/" target="_blank">
+                  <img src="./img/portafolio/experian-webmaster.png" alt="Landing Page proyecto experian">
+
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>
+                        Landing Page
+
+                        <br>
+                        Proyecto Experian
+                      </h3>
+
+                      <h5>
+                        <!-- Descripción breve del trabajo realizado -->
+                        La diferencia entre un buen diseño de la aplicación y uno deficiente suele ser la calidad de la
+                        experiencia del usuario. Los tiempos de carga rápidos, la facilidad de uso y la satisfacción
+                        general del cliente.
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid-item appdev">
+              <!-- Item de la galería, relacionado con Web Master -->
+
+              <div class="gallery-image">
+                <a href="https://universodecreadores.com/" target="_blank">
+                  <img src="./img/portafolio/uc-webmaster.png" alt="Sitio web Universo de Creadores">
+
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>
+                        Web Master
+
+                        <br>
+                        Universo de Creadores
+                      </h3>
+
+                      <h5>
+                        <!-- Descripción breve del trabajo realizado -->
+                        La diferencia entre un buen diseño de la aplicación y uno deficiente suele ser la calidad de la
+                        experiencia del usuario. Los tiempos de carga rápidos, la facilidad de uso y la satisfacción
+                        general del cliente.
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid-item logo-design">
+              <!-- Item de la galería, relacionado con Diseño Grafico -->
+
+              <div class="gallery-image">
+                <a href="#" target="_blank">
+                  <img src="./img/portafolio/port8.png" alt="Imagen Logotipos">
+
+                  <div class="img-overlay">
+                    <div class="img-description">
+                      <h3>
+                        Diseño
+
+                        <br>
+                        Grafico
+                      </h3>
+
+                      <h5>
+                        <!-- Descripción breve del trabajo realizado -->
+                        La diferencia entre un buen diseño de la aplicación y uno deficiente suele ser la calidad de la
+                        experiencia del usuario. Los tiempos de carga rápidos, la facilidad de uso y la satisfacción
+                        general del cliente.
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <!-- Sección "Sobre Nosotros", que destaca las habilidades blandas del equipo -->
+
+      <div class="container">
+        <!-- Contenedor principal que agrupa todo el contenido de la sección -->
+
+        <div class="section-header">
+          <!-- Encabezado de la sección -->
+
+          <h3 class="title" data-title="Quienes Somos">Habilidades Blandas</h3>
+
+          <!-- Título de la sección -->
+        </div>
+
+        <div class="section-body grid-2">
+          <!-- Cuerpo de la sección con dos columnas (grid-2) -->
+
+          <div class="column-1">
+            <!-- Primera columna para mostrar la descripción y habilidades -->
+
+            <h3 class="title-sm">Hola,</h3>
+
+            <!-- Subtítulo con saludo o presentación -->
+
+            <p class="text">
+              <!-- Descripción del enfoque del equipo y su importancia en el trabajo colaborativo -->
+              Me gusta lo que hacemos en equipo y creemos profundamente en nuestras capacidades. En cada nuevo proyecto,
+              analizamos la situación de nuestros clientes, extraemos hipótesis y buscamos las tecnologías y
+              experiencias adecuadas. Buscar nuevas propuestas, originales, y que rompan el esquema establecido, será
+              una de las Habilidades Blandas que mayores frutos dará en la experiencia laboral.
+            </p>
+
+            <div class="skills">
+              <!-- Contenedor para mostrar las habilidades blandas del equipo -->
+
+              <div class="skill html">
+                <h3 class="skill-title">Trabajo en equipo</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso de la habilidad -->
+
+                  <div class="skill-progress" data-progress="98%"></div>
+
+                  <!-- Progreso de la habilidad (98%) -->
+                </div>
+              </div>
+
+              <div class="skill css">
+                <h3 class="skill-title">Responsabilidad</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso de la habilidad -->
+
+                  <div class="skill-progress" data-progress="90%"></div>
+
+                  <!-- Progreso de la habilidad (90%) -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">Innovación</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso de la habilidad -->
+
+                  <div class="skill-progress" data-progress="65%"></div>
+
+                  <!-- Progreso de la habilidad (65%) -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">Pensamiento crítico</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso de la habilidad -->
+
+                  <div class="skill-progress" data-progress="80%"></div>
+
+                  <!-- Progreso de la habilidad (80%) -->
+                </div>
+              </div>
+
+              <div class="skill js">
+                <h3 class="skill-title">Adaptabilidad</h3>
+
+                <!-- Título de la habilidad -->
+
+                <div class="skill-bar">
+                  <!-- Barra de progreso de la habilidad -->
+
+                  <div class="skill-progress" data-progress="70%"></div>
+
+                  <!-- Progreso de la habilidad (70%) -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-2 image">
+            <!-- Segunda columna con imágenes representativas -->
+
+            <img src="./img/formas/puntos4.png" class="points" alt="">
+
+            <!-- Imagen decorativa -->
+
+            <img src="./img/nosotros.png" class="z-index" alt="">
+
+            <!-- Imagen del equipo o representación visual -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="records">
+      <!-- Sección de registros, donde se muestran estadísticas clave -->
+
+      <div class="overlay overlay-sm">
+        <!-- Overlay para dar un estilo visual al fondo de la sección -->
+
+        <img src="./img/formas/cuadrado.png" alt="" class="shape square1">
+
+        <!-- Imagen decorativa de un cuadrado (forma) -->
+
+        <img src="./img/formas/cuadrado.png" alt="" class="shape square2">
+
+        <!-- Otra imagen de cuadrado decorativo -->
+
+        <img src="./img/formas/circulo.png" alt="" class="shape circle">
+
+        <!-- Imagen decorativa de un círculo -->
+
+        <img src="./img/formas/medio-circulo.png" alt="" class="shape half-circle">
+
+        <!-- Imagen decorativa de medio círculo -->
+
+        <img src="./img/formas/ondas.png" alt="" class="shape wave wave1">
+
+        <!-- Imagen decorativa de ondas -->
+
+        <img src="./img/formas/ondas.png" alt="" class="shape wave wave2">
+
+        <!-- Otra imagen decorativa de ondas -->
+
+        <img src="./img/formas/x.png" alt="" class="shape xshape">
+
+        <!-- Imagen decorativa de una "X" -->
+
+        <img src="./img/formas/triangulo.png" alt="" class="shape triangle">
+
+        <!-- Imagen decorativa de un triángulo -->
+      </div>
+
+      <div class="container">
+        <!-- Contenedor principal de la sección -->
+
+        <div class="wrap">
+          <!-- Contenedor para el primer círculo de estadísticas -->
+
+          <div class="record-circle">
+            <!-- Círculo que muestra el número de proyectos -->
+
+            <h2 class="number" data-num="30">0</h2>
+
+            <!-- Número de proyectos, inicialmente 0 -->
+
+            <h4 class="sub-title">Proyectos</h4>
+
+            <!-- Subtítulo de la estadística -->
+          </div>
+        </div>
+
+        <div class="wrap">
+          <!-- Contenedor para el segundo círculo de estadísticas -->
+
+          <div class="record-circle active">
+            <!-- Círculo que muestra el número de clientes felices -->
+
+            <h2 class="number" data-num="20">0</h2>
+
+            <!-- Número de clientes felices, inicialmente 0 -->
+
+            <h4 class="sub-title">Clientes felices</h4>
+
+            <!-- Subtítulo de la estadística -->
+          </div>
+        </div>
+
+        <div class="wrap">
+          <!-- Contenedor para el tercer círculo de estadísticas -->
+
+          <div class="record-circle">
+            <!-- Círculo que muestra las horas de trabajo -->
+
+            <h2 class="number" data-num="50000">0</h2>
+
+            <!-- Número de horas trabajadas, inicialmente 0 -->
+
+            <h4 class="sub-title">Hora de trabajo</h4>
+
+            <!-- Subtítulo de la estadística -->
+          </div>
+        </div>
+
+        <div class="wrap">
+          <!-- Contenedor para el cuarto círculo de estadísticas -->
+
+          <div class="record-circle">
+            <!-- Círculo que muestra el número de premios -->
+
+            <h2 class="number" data-num="3">0</h2>
+
+            <!-- Número de premios, inicialmente 0 -->
+
+            <h4 class="sub-title">Premios</h4>
+
+            <!-- Subtítulo de la estadística -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog section" id="blog">
+      <!-- Sección del blog que presenta las contribuciones o publicaciones -->
+
+      <div class="container">
+        <!-- Contenedor principal de la sección -->
+
+        <div class="section-header">
+          <!-- Encabezado de la sección con el título y la descripción -->
+
+          <h3 class="title" data-title="Proyectos">Contribución</h3>
+
+          <!-- Título de la sección que resalta el área de contribución -->
+
+          <p class="text">
+            ¡Bienvenido a mi blog! Aquí publico Tips y novedades sobre mis pasiones & nuevas tecnologías.
+          </p>
+
+          <!-- Descripción breve que invita a los usuarios a leer el blog -->
+        </div>
+
+        <div class="blog-wrapper">
+          <!-- Contenedor de todos los elementos del blog -->
+
+          <div class="blog-wrap">
+            <!-- Cada bloque de blog tiene su propio "wrap" -->
+
+            <img src="./img/formas/puntos3.png" alt="" class="points points-sq">
+
+            <!-- Imagen decorativa que acompaña el post (puede ser un fondo o un detalle visual) -->
+
+            <div class="blog-card">
+              <!-- Tarjeta que representa una publicación de blog -->
+
+              <div class="blog-image">
+                <!-- Imagen que acompaña el artículo del blog -->
+
+                <img src="./img/blog1.png" alt="">
+              </div>
+
+              <div class="blog-content">
+                <!-- Contenido textual del artículo -->
+
+                <div class="blog-info">
+                  <!-- Información de la publicación: fecha y autor -->
+
+                  <h5 class="blog-date">Enero, 22 2022</h5>
+
+                  <!-- Fecha de la publicación -->
+
+                  <h5 class="blog-user">
+                    <i class="fas fa-user"></i>
+                    Cmayor
+                  </h5>
+
+                  <!-- Nombre del autor de la publicación -->
+                </div>
+
+                <h3 class="title-sm">La magia de esta profesión</h3>
+
+                <!-- Título del artículo de blog -->
+
+                <p class="blog-text">
+                  <!-- Extracto del artículo de blog -->
+                  Ayuda a convertir cualquier diseño en instrucciones que una computadora pueda seguir.
+                  Una página web funcional y atractiva, requiere el apoyo de un desarrollador que transforme esas ideas
+                  y genere todas las herramientas para crear un sitio funcional...
+                </p>
+
+                <a href="https://wa.me/573108258364" class="btn small" target="_blank" rel="noopener noreferrer">Saber
+                  más</a>
+
+                <!-- Enlace que dirige a una conversación de WhatsApp (o más información sobre el post) -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Repetimos el bloque para otras publicaciones de blog -->
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="./img/blog2.png" alt="">
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">Enero, 23 2022</h5>
+
+                  <h5 class="blog-user">
+                    <i class="fas fa-user"></i>
+                    Cmayor
+                  </h5>
+                </div>
+
+                <h3 class="title-sm">Nos apasiona lo que hacemos</h3>
+
+                <p class="blog-text">
+                  Creemos que esa es verdaderamente la fuente de inspiración, la pasión por la tecnología es una fuerte
+                  atracción a la innovación con factores como la información o el desarrollo de nuevos prototipos...
+                </p>
+
+                <a href="https://wa.me/573108258364" class="btn small" target="_blank" rel="noopener noreferrer">Saber
+                  más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-wrap">
+            <div class="blog-card">
+              <div class="blog-image">
+                <img src="./img/blog3.png" alt="">
+              </div>
+
+              <div class="blog-content">
+                <div class="blog-info">
+                  <h5 class="blog-date">Enero, 24 2022</h5>
+
+                  <h5 class="blog-user">
+                    <i class="fas fa-user"></i>
+                    Cmayor
+                  </h5>
+                </div>
+
+                <h3 class="title-sm">Simplificar currículum Cmayor</h3>
+
+                <p class="blog-text">
+                  Tecnólogo en análisis y desarrollo de sistemas de la información con capacidades de procesamiento o
+                  sistematización de información, diseñando aplicaciones para proveer soluciones...
+                </p>
+
+                <a href="https://wa.me/573108258364" class="btn small" target="_blank" rel="noopener noreferrer">Saber
+                  más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonios">
+      <!-- Sección de testimonios donde se muestran las opiniones de los clientes -->
+
+      <div class="container">
+        <!-- Contenedor principal de la sección -->
+
+        <div class="section-header">
+          <!-- Encabezado de la sección -->
+
+          <h3 class="title" data-title="Lo que dice la gente">Testimonios</h3>
+
+          <!-- Título de la sección que resalta los testimonios de los clientes -->
+        </div>
+
+        <div class="testi-content grid-2">
+          <!-- Contenedor principal de las columnas dentro de la sección de testimonios, con un grid de 2 columnas -->
+
+          <div class="column-1 reviews">
+            <!-- Primera columna que contiene los testimonios -->
+
+            <div class="swiper-container">
+              <!-- Contenedor para el carrusel de testimonios -->
+
+              <div class="swiper-wrapper">
+                <!-- Contenedor que agrupa los elementos del carrusel -->
+
+                <div class="swiper-slide review">
+                  <!-- Primer testimonio en el carrusel -->
+                  <i class="fas fa-quote-left quote"></i>
+                  <!-- Icono de comillas al inicio del testimonio -->
+
+                  <div class="rate">
+                    <!-- Contenedor de la calificación del testimonio -->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <!-- 5 estrellas para calificar el servicio -->
+                  </div>
+
+                  <p class="review-text">
+                    <!-- Texto del testimonio -->
+                    Justamente estoy trabajando en retoques a mis páginas de ventas y tus consejos me han venido como
+                    anillo al dedo!! Gracias!
+                  </p>
+
+                  <div class="review-info">
+                    <!-- Información adicional sobre el autor del testimonio -->
+
+                    <h3 class="review-name">Hary Nieto</h3>
+
+                    <!-- Nombre del autor del testimonio -->
+
+                    <h5 class="review-job">CEO Detalles Violeta, Paris</h5>
+
+                    <!-- Cargo y empresa del autor -->
+                  </div>
+                </div>
+
+                <div class="swiper-slide review">
+                  <!-- Segundo testimonio en el carrusel -->
+                  <i class="fas fa-quote-left quote"></i>
+
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    Gracias ALSOTEC, eres excelente en esto del marketing, bendiciones.
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Alejandra Salazar</h3>
+
+                    <h5 class="review-job">Directora Fucavi, Colombia</h5>
+                  </div>
+                </div>
+
+                <div class="swiper-slide review">
+                  <!-- Tercer testimonio en el carrusel -->
+                  <i class="fas fa-quote-left quote"></i>
+
+                  <div class="rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+
+                  <p class="review-text">
+                    «Estoy encantado con el sistema.»
+                    «Yo no puedo más que recomendar los servicios de Alsotec.»
+                  </p>
+
+                  <div class="review-info">
+                    <h3 class="review-name">Viviana Rosero</h3>
+
+                    <h5 class="review-job">vivianarosero.com CEO, España</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="review-nav swiper-button-prev">
+                <!-- Botón para navegar al testimonio anterior -->
+                <i class="fas fa-long-arrow-alt-left"></i>
+              </div>
+
+              <div class="review-nav swiper-button-next">
+                <!-- Botón para navegar al siguiente testimonio -->
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="column-2 image">
+            <!-- Segunda columna que contiene una imagen representativa -->
+
+            <img src="./img/testimonios.png" alt="" class="img-element">
+
+            <!-- Imagen decorativa que complementa la sección de testimonios -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <!-- Sección de contacto donde los usuarios pueden obtener información de contacto y enviar sus datos -->
+
+      <div class="container">
+        <!-- Contenedor principal de la sección -->
+
+        <div class="contact-box">
+          <!-- Contenedor de la caja de contacto que organiza la información y el formulario -->
+
+          <div class="contact-info">
+            <!-- Caja que contiene la información de contacto (dirección, correo y teléfono) -->
+
+            <h3 class="title">Contáctame</h3>
+
+            <!-- Título de la sección -->
+
+            <p class="text">
+              Apoyamos el crecimiento de nuestros clientes,
+              reconociéndolos como eje fundamental,
+              siempre trabajando en equipo para lograr el
+              cumplimiento de objetivos.
+            </p>
+
+            <!-- Descripción de la misión y visión de la empresa o proyecto -->
+
+            <div class="information-wrap">
+              <!-- Contenedor que agrupa las tres formas de contacto (dirección, correo y teléfono) -->
+
+              <div class="information">
+                <!-- Información sobre la dirección -->
+
+                <div class="contact-icon">
+                  <!-- Ícono de localización -->
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+
+                <p class="info-text">
+                  - Bogota, Colombia.
+
+                  <br>
+                  - Barcelona, España.
+
+                  <br>
+                  - New York, Estados Unidos.
+                </p>
+
+                <!-- Dirección física donde se encuentra la empresa o equipo -->
+              </div>
+
+              <div class="information">
+                <!-- Información sobre el correo electrónico -->
+
+                <div class="contact-icon">
+                  <!-- Ícono de sobre de correo -->
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+
+                <p class="info-text">cristian.mayor@cun.edu.co</p>
+
+                <!-- Dirección de correo electrónico para contacto -->
+              </div>
+
+              <div class="information">
+                <!-- Información sobre el teléfono -->
+
+                <div class="contact-icon">
+                  <!-- Ícono de teléfono -->
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+
+                <p class="info-text">+57 310 825 8364</p>
+
+                <!-- Número de teléfono para contacto -->
+              </div>
+            </div>
+          </div>
+
+          <div class="contactform">
+            <!-- Caja que contiene el formulario para que los usuarios ingresen sus datos y comentarios -->
+
+            <h3 class="title">Ingresa tus datos</h3>
+
+            <!-- Título del formulario -->
+
+            <form action="https://formsubmit.co/fa7c3f343ce345020ae7682c6158160c" method="POST" id="contactForm">
+              <!-- Formulario con acción que envía los datos a una dirección específica -->
+
+              <div class="row">
+                <!-- Fila que contiene los campos de nombre y apellido -->
+
+                <input type="text" name="nombre" class="contact-input" placeholder="Nombre"
+                  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" title="Solo se permiten letras y espacios"
+                  required="required"></input>
+
+                <!-- Campo para el nombre del usuario -->
+
+                <input type="text" name="apellido" class="contact-input" placeholder="Apellido"
+                  pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+" title="Solo se permiten letras y espacios"
+                  required="required"></input>
+
+                <!-- Campo para el apellido del usuario -->
+              </div>
+
+              <div class="row">
+                <!-- Fila que contiene los campos de teléfono y correo electrónico -->
+
+                <input type="text" name="telefono" class="contact-input" placeholder="Número de contacto"
+                  pattern="[0-9]{10}" title="El número debe contener exactamente 10 dígitos"
+                  required="required"></input>
+
+                <!-- Campo para el número de teléfono del usuario -->
+
+                <input type="email" name="email" class="contact-input" placeholder="Correo electrónico"
+                  required="required"></input>
+
+                <!-- Campo para el correo electrónico del usuario -->
+              </div>
+
+              <div class="row">
+                <!-- Fila que contiene el campo de mensaje -->
+
+                <textarea name="comentarios" class="contact-input textarea" placeholder="Mensaje"
+                  required="required"></textarea>
+
+                <!-- Campo para que el usuario ingrese su mensaje o comentario -->
+              </div>
+
+              <input type="hidden" name="_redirect" value="./index.html"></input>
+
+              <!-- Campo oculto que redirige al usuario después de enviar el formulario -->
+
+              <button type="submit" class="btn">Enviar</button>
+
+              <!-- Botón para enviar el formulario -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hireme" id="hireme">
+      <!-- Sección para incentivar al usuario a contactar o contratar para proyectos -->
+
+      <div class="container">
+        <!-- Contenedor principal de la sección -->
+
+        <h3 class="title">Hablemos de un proyecto</h3>
+
+        <!-- Título que invita al usuario a contactar para discutir un proyecto -->
+
+        <p class="text">
+          Como emprendedor & equipo, estamos en constante innovación en el
+          mercado TI, sobre todo actualizándonos con las últimas
+          tendencias digitales para dar como resultado una constante
+          evolución en nuestra comunidad y nuestros clientes.
+        </p>
+
+        <!-- Descripción que resalta la dedicación y compromiso del equipo con la innovación y las tendencias del mercado de TI -->
+
+        <a href="https://wa.me/573108258364" class="btn">Contratame</a>
+
+        <!-- Enlace a WhatsApp para iniciar una conversación directamente con el número proporcionado, ofreciendo el servicio de contratación -->
+      </div>
+    </section>
+
+    <!-- Fin de la sección "Hablemos de un proyecto" -->
+  </main>
+
+  <footer class="footer">
+    <!-- Sección de pie de página, donde se incluye información adicional y enlaces útiles -->
+
+    <div class="container">
+      <!-- Contenedor principal del pie de página -->
+
+      <div class="grid-4">
+        <!-- Sección con 4 columnas de contenido -->
+
+        <div class="grid-4-col footer-about">
+          <!-- Primera columna con información sobre la empresa -->
+
+          <h3 class="title-sm">Soluciones Web</h3>
+
+          <!-- Título de la sección de información -->
+
+          <p class="text">
+            Implementamos diversas soluciones que aportan
+            valor a nuestros clientes, entregando calidad
+            a través de estándares profesionales, tecnológicos
+            y de seguridad.
+          </p>
+
+          <!-- Descripción breve sobre los servicios y valores de la empresa -->
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <!-- Segunda columna con enlaces a secciones principales del sitio web -->
+
+          <h3 class="title-sm">Links</h3>
+
+          <!-- Título de la sección de enlaces -->
+
+          <ul>
+            <!-- Lista de enlaces a secciones del sitio -->
+
+            <li>
+              <a href="#formacion">Formación</a>
+            </li>
+
+            <li>
+              <a href="#portafolio">Portafolio</a>
+            </li>
+
+            <li>
+              <a href="#about">Habilidades</a>
+            </li>
+
+            <li>
+              <a href="#blog">Contribución</a>
+            </li>
+
+            <li>
+              <a href="#testimonios">Testimonios</a>
+            </li>
+
+            <li>
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <!-- Tercera columna con enlaces a los servicios ofrecidos -->
+
+          <h3 class="title-sm">Servicios</h3>
+
+          <!-- Título de la sección de servicios -->
+
+          <ul>
+            <!-- Lista de servicios ofrecidos -->
+
+            <li>
+              <a href="#portafolio">Diseño Web</a>
+            </li>
+
+            <li>
+              <a href="#portafolio">Desarrollo Web</a>
+            </li>
+
+            <li>
+              <a href="#portafolio">Diseño de App</a>
+            </li>
+
+            <li>
+              <a href="#portafolio">Marketing</a>
+            </li>
+
+            <li>
+              <a href="#portafolio">UX & UI</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-4-col footer-newstletter">
+          <!-- Cuarta columna con el formulario de suscripción a boletines -->
+
+          <h3 class="title-sm">Suscríbete</h3>
+
+          <!-- Título de la sección de suscripción -->
+
+          <p class="text">
+            Para conocer nuestros Tips!! te enviaremos periódicamente
+            Newsletters con informativas que pueden incluir información
+            y publicidad de nuestros productos o servicios y/o de
+            nuestros partners.
+          </p>
+
+          <!-- Descripción que invita a suscribirse para recibir actualizaciones y novedades -->
+
+          <form action="https://formsubmit.co/fa7c3f343ce345020ae7682c6158160c" method="POST" id="footerForm"
+            class="footer-form">
+            <!-- Formulario para ingresar el correo electrónico -->
+
+            <div class="footer-input-wrap">
+              <input type="email" name="email" class="footer-input" placeholder="Email"></input>
+
+              <!-- Campo para ingresar el correo electrónico -->
+
+              <button type="submit" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </button>
+
+              <!-- Botón de envío con un ícono -->
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <!-- Sección inferior del pie de página -->
+
+        <div class="copyright">
+          <!-- Información de derechos de autor -->
+
+          <p class="text">
+            Copyright&copy;2022 - 2024 Reservados todos los derechos | Made in Colombia
+
+            <span>Cristian Mayor</span>
+          </p>
+
+          <!-- Información sobre el copyright y el nombre del autor -->
+        </div>
+
+        <div class="followme-wrap">
+          <!-- Contenedor de los íconos de redes sociales -->
+
+          <div class="followme">
+            <h3>Sígueme</h3>
+
+            <!-- Título que invita a seguir en redes sociales -->
+            <span class="footer-line"></span>
+            <!-- Línea decorativa -->
+
+            <div class="social-media">
+              <!-- Enlaces a redes sociales -->
+
+              <a href="https://www.facebook.com/profile.php?id=61563504306636">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <!-- Enlace a Facebook -->
+
+              <a href="https://www.instagram.com">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <!-- Enlace a Instagram -->
+
+              <a href="https://www.linkedin.com/in/cristian-mayor-a7804b144/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <!-- Enlace a LinkedIn -->
+            </div>
+          </div>
+
+          <div class="back-btn-wrap">
+            <!-- Botón para volver al inicio de la página -->
+
+            <a href="#" class="back-btn">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+
+            <!-- Ícono de flecha hacia arriba que permite al usuario volver al principio -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Carga la librería jQuery desde el CDN de Cloudflare. jQuery es una biblioteca de JavaScript que facilita la manipulación del DOM y la realización de tareas comunes en JavaScript. -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <!-- Carga la librería Isotope, que se usa para la creación de diseños de cuadrícula con filtros y ordenación dinámicos. Se utiliza comúnmente para mostrar elementos como imágenes o productos en una cuadrícula que puede ser filtrada o reordenada. -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Carga la librería Swiper desde el CDN de unpkg. Swiper es un slider de imágenes o contenido que permite crear presentaciones y carruseles interactivos. -->
+  <script src="./js/script.js"></script>
+  <!-- Carga el archivo JavaScript local "script.js" que contiene los scripts personalizados para la página web. -->
+</body>
+
 </html>
