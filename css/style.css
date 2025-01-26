@@ -288,8 +288,8 @@ header .circle { left: 38%; bottom: 63%; }
 .section { padding: 4.5rem 0; }
 .column-1 { margin-right: 1rem; }
 .column-2 { margin-left: 1rem; }
-.diploma-list1 {list-style: none; text-align: left; margin: 0 0 0 0 }
-.diploma-list2 {list-style: none; padding: 10px; text-align: left; margin: 0 0 0 0 }
+.diploma-list1 {list-style: none; text-align: left; margin: 0 0 0 10px; }
+.diploma-list2 {list-style: none; padding: 10px; text-align: left; margin: 0 0 0 35px }
 .diploma-list a { text-decoration: none; color: var(--main-color); font-weight: bold; font-size: 15px; }
 .diploma-list1 a { text-decoration: none; color: var(--main-color); font-weight: bold; font-size: 8px;  }
 .diploma-list2 a { text-decoration: none; color: var(--main-color); font-weight: bold; font-size: 8px; }
