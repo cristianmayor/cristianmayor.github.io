@@ -277,7 +277,7 @@ header .circle { left: 38%; bottom: 63%; }
 /* End Footer */ 
 
 /* Responsive */ 
-@media (max-width: 1280px) { .text { font-size: 1rem; }
+@media (max-width: 1180px) { .text { font-size: 1rem; }
 .title { font-size: 2.1rem; padding-bottom: 0.65rem; }
 .title:before { margin-bottom: 0.2rem; font-size: 0.8rem; letter-spacing: 2px; }
 .title:after { height: 3.5px; width: 70px; }
@@ -417,7 +417,10 @@ header .xshape { left: 90%; top: 54%; }
 .about .column-1:before { font-size: 5rem; }
 .about .points { top: 60%; left: 59%; }
 .records .wave1, .records .triangle { display: none; }
-.records .container { grid-template-columns: repeat(2, 1fr); }
+.records .container { grid-template-columns: repeat(2, 1fr); display: flex; }
+.record-circle { width: 100px; height: 100px; border-width: 3px; }
+.record-circle .number { font-size: 1rem; }
+.record-circle .sub-title { font-size: 0.5rem; }
 .records .wave2 { left: 48%; }
 .records .sqaure2 { bottom: 45%; right: 50px; }
 .testi-content { margin-top: 1.7rem; }
@@ -449,6 +452,9 @@ header .xshape { left: 90%; top: 54%; }
 .overlay.overlay-lg .shape.wave { height: initial; width: 52px; }
 .overlay.overlay-lg .shape.xshape { height: 22px; }
 .records .container { grid-template-columns: 1fr; }
+.record-circle { width: 75px; height: 75px; border-width: 3px; }
+.record-circle .number { font-size: 12px; }
+.record-circle .sub-title { font-size: 8px; }
 .records .half-circle { top: 50%; left: 50px; }
 .records .wave2 { bottom: 50%; right: 20px; left: initial; }
 .records .xshape { right: 70px; }
